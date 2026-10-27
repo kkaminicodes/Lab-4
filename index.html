@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSKTM IT Club - Homepage</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #eef2f5;
+        color: #333333;
+        padding: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 600px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        min-height: 100px;
+        background-image: url('header.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .navigation {
+        min-height: 50px;
+        background-color: #1b2a4a;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        border-radius: 4px;
+    }
+
+    .navigation ul {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+    }
+
+    .navigation a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .navigation a:hover {
+        color: #38bdf8;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-height: 400px;
+        margin-top: 10px;
+    }
+
+    .side-bar {
+        width: 20%;
+        min-height: 400px;
+        background-color: #dbe2ef;
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 4px;
+    }
+
+    .side-bar h3 {
+        color: #1b2a4a;
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .side-bar p {
+        font-size: 13px;
+        color: #475569;
+        line-height: 1.4;
+    }
+
+    .side-bar ul {
+        list-style-type: square;
+        padding-left: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .side-bar a {
+        color: #0284c7;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .side-bar a:hover {
+        text-decoration: underline;
+    }
+
+    .meetup-card {
+        background-color: #ffffff;
+        padding: 12px;
+        border-left: 4px solid #0284c7;
+        border-radius: 4px;
+        margin-top: auto;
+    }
+
+    .body-area {
+        width: 70%;
+        min-height: 400px;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .badge {
+        display: inline-block;
+        background-color: #c9ebee;
+        color: #0369a1;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 2px;
+        letter-spacing: 0.5px;
+        margin-bottom: 12px;
+    }
+
+    .body-area h2 {
+        color: #0f172a;
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+    }
+
+    .body-area h3 {
+        color: #1e293b;
+        font-size: 1.15rem;
+        margin-top: 22px;
+        margin-bottom: 8px;
+    }
+
+    .body-area p {
+        color: #334155;
+        line-height: 1.6;
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+    }
+
+    .body-area ul {
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .body-area li {
+        color: #334155;
+        line-height: 1.6;
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+
+    .body-area a {
+        color: #0284c7;
+        text-decoration: none;
+    }
+
+    .body-area a:hover {
+        text-decoration: underline;
+    }
+
+    .footer {
+        min-height: 20px;
+        background-color: #1b2a4a;
+        color: #ffffff;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        font-size: 0.85rem;
+        border-radius: 4px;
+    }
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="logo">
+            <h1>FSKTM IT Club</h1>
+            <p>Learn. Build. Innovate. Together.</p>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="side-bar">
+                <h3>Club Corner</h3>
+                <p>Explore activities and opportunities available to our members.</p>
+                <ul>
+                    <li><a href="#events">Upcoming Events</a></li>
+                    <li><a href="#resources">Learning Resources</a></li>
+                    <li><a href="#join">Join the Club</a></li>
+                </ul>
+            </div>
+
+            <div class="body-area">
+                <span class="badge">WELCOME TO OUR COMMUNITY</span>
+                <h2>Discover Technology, Create Possibilities</h2>
+                <p>Welcome to Campus Tech Society! We are a student-led community that brings together people interested in web development, programming, design and emerging technology.</p>
+                
+                <h3>About Our Club</h3>
+                <p>Our mission is to help students build practical skills through hands-on workshops, mini projects and knowledge-sharing sessions. Everyone is welcome, including beginners.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 FSKTM IT Club. All rights reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
